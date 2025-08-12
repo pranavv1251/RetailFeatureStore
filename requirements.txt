@@ -15,3 +15,4 @@ evidently
 python-dotenv
 typer
 openpyxl
+requests

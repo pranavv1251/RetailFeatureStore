@@ -1,0 +1,27 @@
+txn_count_1d
+spend_1d
+unique_skus_1d
+avg_basket_value_1d
+cancel_rate_1d
+txn_count_7d
+spend_7d
+unique_skus_7d
+avg_basket_value_7d
+cancel_rate_7d
+txn_count_30d
+spend_30d
+unique_skus_30d
+avg_basket_value_30d
+cancel_rate_30d
+tenure_days
+customer_id
+country__United Kingdom
+country__EIRE
+country__Germany
+country__France
+country__Netherlands
+country__Switzerland
+country__Spain
+country__Portugal
+country__Australia
+country__Norway
