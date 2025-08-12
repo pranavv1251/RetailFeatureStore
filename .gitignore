@@ -1,0 +1,61 @@
+# --- Python basics ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# Testing & tooling
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Editors / OS
+.DS_Store
+*.swp
+.idea/
+.vscode/
+Thumbs.db
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+
+# --- Project data layers (big / generated) ---
+# keep structure with placeholder .gitkeep files if needed
+data/raw/**
+data/bronze/**
+data/silver/**
+data/gold/**
+data/preds/**
+data/tmp/**
+
+# --- MLflow & artifacts ---
+mlruns/**
+
+# Model artifacts (keep feature list, ignore heavy pickles by default)
+serving/models/*.pkl
+serving/models/*.onnx
+!serving/models/feature_names.txt
+
+# Great Expectations (if using `ge/` layout)
+ge/uncommitted/**
+ge/.ge_store_backend_id
+
+# Docker
+*.tar

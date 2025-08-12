@@ -1,0 +1,17 @@
+numpy
+pandas
+pyarrow
+mlflow
+xgboost
+lightgbm
+fastapi
+uvicorn
+pydantic
+redis
+SQLAlchemy
+psycopg2-binary
+great-expectations
+evidently
+python-dotenv
+typer
+openpyxl
